@@ -375,10 +375,10 @@ Week5_DataAnalytics_SwiftLog/
 │
 ├── References/
 │   ├── AnalystLab_Africa_Week5_Assignment.pdf
-│   ├── SwiftLog_Data_Dictionary.xlsx
+│   ├──Calculated_Fields_Data_Dictionary.csv
+|   ├──SwiftLog_Data_Dictionary.xlsx
 │   └── References.md
 │
-├── Calculated_Fields_Data_Dictionary.csv
 └── README.md
 ```
 
@@ -411,6 +411,12 @@ This repository contains the core deliverables for the Week 5 Data Analytics pro
 - README documentation
 
 ---
+
+## Project Preview
+
+### Data Model View
+
+![Data Model View](Images/Data%20Model%20View.png)
 
 ## Acknowledgement
 
