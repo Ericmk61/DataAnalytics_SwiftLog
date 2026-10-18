@@ -1,0 +1,14 @@
+Table,Field,Data Type,Definition / Business Use
+DateTable,Date,Date,Continuous calendar date used for time filtering
+DateTable,Month,Text,Full month name for visuals
+DateTable,Month Number,Whole Number,Chronological sort key for Month
+DateTable,Quarter,Text,Quarter label
+SwiftLog_Inventory,Stock Status,Text,Conditional stock classification used for low-stock analysis
+SwiftLog_Warehouses,EmployeeCount,Whole Number,Employee count grouped from Employees by WarehouseID
+SwiftLog_Shipments,Delivery Status,Text,Status merged from Delivery Performance by ShipmentID
+Measures,Total Revenue,Decimal/Currency,Delivered-order revenue
+Measures,Average Delivery Delay,Decimal,Average DelayDays for delivered orders
+Measures,On-Time Delivery Rate,Percentage,Share of delivered orders with On Time delivery status
+Measures,Inventory Turnover,Decimal,Units Ordered divided by Inventory Stock Level; proxy
+Measures,Selected Product,Text,Selected ProductID for drill-through/tooltip context
+Measures,Dynamic Executive Trends Title,Text,Month-responsive title
